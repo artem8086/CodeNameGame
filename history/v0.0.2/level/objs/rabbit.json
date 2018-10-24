@@ -1,0 +1,26 @@
+{
+	class:art.soft.objects.MultiData,
+	forms:[
+		{animation:"rabbit",
+		hp:100,
+		cenX:30,cenY:90,
+		width:83,height:120,
+		max_speed:32,
+		acceleratY:1,
+		collision:2,
+		coll_mask:1,
+		friction:0.7}
+	],
+	frames:[
+		{form:0,anims:[0]},
+		{form:0,anims:[0],next:1,
+		forceX:10},
+		{form:0,anims:[0],next:2,
+		forceX:1}
+	],
+	frameStatus:[
+		0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0
+	],
+	jumpX:0.1,
+	jumpY:-22
+}

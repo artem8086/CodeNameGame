@@ -1,0 +1,11 @@
+{
+	class:art.soft.objects.Dynamic,
+	animation:"box",
+	hp:50,cenX:51,cenY:51,
+	width:102,height:102,
+	max_speed:32,
+	acceleratY:1,
+	collision:1,
+	coll_mask:3,
+	friction:0.8
+}

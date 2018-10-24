@@ -1,0 +1,4 @@
+{
+	class:art.soft.objects.Decor,
+	animation:"tree",anim:4
+}

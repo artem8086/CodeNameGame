@@ -1,0 +1,6 @@
+{
+	class:art.soft.objects.Decor,
+	animation:"tree",anim:1,
+	cenX:75,cenY:261,
+	width:150,height:261
+}
